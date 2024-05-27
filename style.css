@@ -1,6 +1,9 @@
 img {
   transition: 3s;
 }
+i {
+  transition: 2s;
+}
 input:checked ~ img {
   /* Nếu muốn biến mất khỏi giao diện và xóa không gian chiếm dụng của nó */
   /* display:none; */
