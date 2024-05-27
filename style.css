@@ -1,0 +1,26 @@
+img {
+  transition: 3s;
+}
+input:checked ~ img {
+  /* Nếu muốn biến mất khỏi giao diện và xóa không gian chiếm dụng của nó */
+  /* display:none; */
+  /* Chỉ làm mờ ảnh, vẫn còn khôg gian của ảnh và tuogw tác được */
+  opacity: 0;
+}
+input:checked ~ p {
+  /* Nếu muốn biến mất khỏi giao diện và xóa không gian chiếm dụng của nó */
+  /* display:none; */
+  /* Chỉ làm mờ ảnh, vẫn còn khôg gian của ảnh và tuogw tác được */
+  display: none;
+}
+input:checked ~ i {
+  /* Nếu muốn biến mất khỏi giao diện vẫn không gian chiếm dụng của nó */
+  /* nhưng không tương tác được */
+  visibility: hidden;
+}
+p,
+i {
+  color: blueviolet;
+  font-size: 18;
+  font-family: Arial, Helvetica, sans-serif;
+}

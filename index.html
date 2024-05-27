@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Các tình huống sử dụng opacity, display và visibility</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Các tình huống sử dụng opacity, display, visibility</h1>
+    <ol type="1">
+      <li>
+        Opacity: <input type="checkbox" />Click me to see more<br />
+        <br />
+        <img src="./img/park_3.png" alt="beauty girl" height="300" />
+        <br />
+        <br />
+        <strong>
+          Sử dụng opacity:0 chỉ làm mờ nội dung, vẫn còn không gian và tương tác
+          được
+        </strong>
+      </li>
+      <br />
+      <br />
+      <li>
+        Display: <input type="checkbox" />Click me to see more
+        <br />
+        <p>
+          Đoạn văn bản này sẽ biến mất và cả khoản không gian chứa nó cũng bị
+          xóa đi khi bạn click vào ô checkbox và xuất hiện lại khi bạn bỏ tick
+          tất nhiên là không tương tác được khi nó biến mất
+        </p>
+        <br />
+
+        <br />
+
+        <strong>
+          Sử dụng display:none xóa cả nội dung, và không gian nên không tương
+          tác được
+        </strong>
+      </li>
+      <br />
+      <li>
+        Visibility: <input type="checkbox" />Click me to see more<br />
+        <br />
+
+        <i>
+          Đoạn văn bản này sẽ biến mất và khoản không gian chứa nó sẽ không bị
+          xóa đi khi bạn click vào ô checkbox và xuất hiện lại khi bạn bỏ tick
+          và không tương tác được khi nó biến mất</i
+        >
+        <br />
+        <br />
+        <strong>
+          Sử dụng visibility:hidden xóa nội dung, vẫn còn không gian và không
+          tương tác được
+        </strong>
+      </li>
+    </ol>
+    <h2>Các nội dung phía sau</h2>
+    <h2>
+      Kiến thức mở rộng - Sử dụng Animation với các phần tử trong giao diện
+    </h2>
+    <p>Ví dụ muốn ảnh biến mất mờ dần khi click vào các checkbox</p>
+  </body>
+</html>
